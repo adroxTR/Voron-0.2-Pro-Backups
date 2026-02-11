@@ -1,0 +1,12 @@
+##### Useful commands for using shell #####
+
+#################################
+LIVE Check for CAN Errors:
+
+sudo ip -details -statistics link show can0\
+
+LIVE Error Checking:
+watch -n1 'ip -details -statistics link show can0'
+
+#################################
+#################################
